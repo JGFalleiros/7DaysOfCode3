@@ -8,6 +8,7 @@
 
 body {
     font-family: Roboto Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 .app-bg {
@@ -128,4 +129,24 @@ nav {
 #user-pic{
     width: 20px;
     height: 20px;
+}
+
+.trilho1{
+    padding: 8rem 3rem 0 3rem;
+}
+
+.trilho1 p{
+    color: rgba(255, 255, 255, 0.797);
+    font-weight: 600;
+    margin: 0rem 0 1rem 0;
+}
+
+.trilho1-img{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(280px, auto));  */
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.trilho1-img img{
+    width: 280px;
 }
