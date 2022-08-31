@@ -1,11 +1,15 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://kit.fontawesome.com/ff3c20140a.js" crossorigin="anonymous"></script>
+    <link href='fontawesome-free-6.1.2-web/css/all.css' rel='stylesheet'>
     <title>Netflix</title>
 </head>
+
 <body>
     <div class="app-bg">
         <nav>
@@ -28,7 +32,8 @@
         </nav>
         <div class="movie-info">
             <img src="src/img/logo-filme.svg" alt="logo do filme spiderhead da Netflix">
-            <p class="movie-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque alias praesentium neque deleniti maiores illo, minima voluptatem incidunt iusto </p>
+            <p class="movie-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque alias
+                praesentium neque deleniti maiores illo, minima voluptatem incidunt iusto </p>
             <div class="btn-info">
                 <div class="btn-assistir">
                     <img src="src/img/botao-play.png" alt="botão de play">
@@ -43,7 +48,7 @@
         <section class="trilho1">
             <p>Minha lista</p>
             <div class="trilho-img">
-                <img src="src/img/trilho1/poster_01.svg" alt="Imagem de capa da serie Bojack-Horseman">
+                <div class="item"><img src="src/img/trilho1/poster_01.svg" alt="Imagem de capa da serie Bojack-Horseman"></div>
                 <img src="src/img/trilho1/poster_02.svg" alt="Imagem de capa da serie Ozark">
                 <img src="src/img/trilho1/poster_03.svg" alt="Imagem de capa da serie A vizinha da mulher na janela">
                 <img src="src/img/trilho1/poster_04.svg" alt="Imagem de capa da serie Braking Bad">
@@ -53,14 +58,54 @@
         <section class="trilho2">
             <p>Em alta</p>
             <div class="trilho-img -animacao">
-                <img src="src/img/trilho2/poster_01.svg" alt="Imagem de capa da serie Bojack-Horseman">
-                <img src="src/img/trilho2/poster_02.svg" alt="Imagem de capa da serie Ozark">
+                <img src="src/img/trilho2/poster_01.svg" alt="Imagem de capa da serie Stranger Things">
+                <img src="src/img/trilho2/poster_02.svg" alt="Imagem de capa da serie The umbrella a">
                 <img src="src/img/trilho2/poster_03.svg" alt="Imagem de capa da serie A vizinha da mulher na janela">
                 <img src="src/img/trilho2/poster_04.svg" alt="Imagem de capa da serie Braking Bad">
                 <img src="src/img/trilho2/poster_05.svg" alt="Imagem de capa da serie The end of the fucking world">
             </div>
         </section>
+        <section class="trilho3">
+            <p>Séries excêntricas de humor ácido</p>
+            <div class="wrapper">
+                <div id="sec-1" class="sec-all">
+                    <div class="trilho-img -animacao -animacao">
+                        <a href="#sec-3" class="btn-slide"></a>
+                        <img src="src/img/trilho3/poster_01.svg" alt="Queen Loretta">
+                        <img src="src/img/trilho3/poster_02.svg" alt="As 7 vidas de lea">
+                        <img src="src/img/trilho3/poster_03.svg" alt="Young Royals">
+                        <img src="src/img/trilho3/poster_04.svg" alt="Dark">
+                        <img src="src/img/trilho3/poster_05.svg" alt="Ozark">
+                        <a href="#sec-2" class="btn-slide"><i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div id="sec-2" class="sec-all">
+                    <div class="trilho-img -animacao -animacao">
+                        <a href="#sec-1" class="btn-slide"><i class="fa-solid fa-angle-left"></i></a>
+                        <img src="src/img/trilho3/poster_05.svg" alt="Queen Loretta">
+                        <img src="src/img/trilho3/poster_04.svg" alt="As 7 vidas de lea">
+                        <img src="src/img/trilho3/poster_03.svg" alt="Young Royals">
+                        <img src="src/img/trilho3/poster_02.svg" alt="Dark">
+                        <img src="src/img/trilho3/poster_01.svg" alt="Ozark">
+                        <a href="#sec-3" class="btn-slide"><i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div id="sec-3" class="sec-all">
+                    <div class="trilho-img -animacao -animacao">
+                        <a href="#sec-2" class="btn-slide"><i class="fa-solid fa-angle-left"></i></a>
+                        <img src="src/img/trilho3/poster_01.svg" alt="Queen Loretta">
+                        <img src="src/img/trilho3/poster_02.svg" alt="As 7 vidas de lea">
+                        <img src="src/img/trilho3/poster_01.svg" alt="Young Royals">
+                        <img src="src/img/trilho3/poster_02.svg" alt="Dark">
+                        <img src="src/img/trilho3/poster_01.svg" alt="Ozark">
+                        <a href="#sec-1" class="btn-slide"><i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
     </div>
 
 </body>
+
 </html>

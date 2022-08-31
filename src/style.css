@@ -105,65 +105,129 @@ nav {
     cursor: pointer;
 }
 
-.aux-btn{
+.aux-btn {
     display: flex;
     align-items: center;
 
 }
 
-.aux-btn img{
+.aux-btn img {
     margin-right: 8px;
     cursor: pointer;
 }
 
-.nav-left-items{
+.nav-left-items {
     display: flex;
 }
 
-#play-btn{
+#play-btn {
     transform: rotate(90deg);
     width: 8px;
     height: 8px;
 }
 
-#user-pic{
+#user-pic {
     width: 20px;
     height: 20px;
 }
 
-.trilho1{
+.trilho1 {
     padding: 8rem 3rem 0 3rem;
 }
 
-.trilho1 p{
+.trilho1 p {
     color: rgba(255, 255, 255, 0.797);
     font-weight: 600;
     margin: 0rem 0 1rem 0;
 }
 
-.trilho-img{
+.trilho-img {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(280px, auto));  */
     grid-template-columns: repeat(5, 1fr);
 }
 
-.trilho-img img{
+.trilho-img img {
     width: 280px;
 }
 
-.trilho2{
+.trilho2 {
     padding: 2rem 3rem 0 3rem;
 }
 
-.trilho2 p{
+.trilho2 p {
     color: rgba(255, 255, 255, 0.797);
     font-weight: 600;
     margin: 0rem 0 1rem 0;
 }
 
-.-animacao img:hover{
+.-animacao img:hover {
     cursor: pointer;
     transform: scale(1.2);
     padding: 0 30px;
-    
+}
+
+.trilho3 {
+    padding: 2rem 3rem 0 3rem;
+}
+
+.trilho3 p {
+    color: rgba(255, 255, 255, 0.797);
+    font-weight: 600;
+    margin: 0rem 0 1rem 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.sec-all{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+}
+
+.btn-slide {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: rgb(0, 0, 0);
+    width: 80px;
+    padding: 80px 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+.btn-slide i {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.btn-slide i:hover {
+    color: white;
+    transform: scale(1.15);
+  }
+
+.btn-slide:nth-of-type(1) {
+    top: -16px;
+    bottom: -10px;
+    left: 0;
+    background: linear-gradient(-90deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 1) 100%);
+}
+
+.btn-slide:nth-of-type(2) {
+    top: -16px;
+    bottom: -10px;
+    right: 0;
+    background: linear-gradient(90deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 1) 100%);
 }
